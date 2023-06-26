@@ -1,0 +1,27 @@
+{
+  "name": "reatcjune",
+  "version": "1.0.0",
+  "description": "this is june reporsitory",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishkainth/reactjune.git"
+  },
+  "author": "ashish kainth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishkainth/reactjune/issues"
+  },
+  "homepage": "https://github.com/ashishkainth/reactjune#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
