@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { CLOUDINARY_URL } from "../../utils/constant";
 
 export default RestaurantCard = (props) => {
