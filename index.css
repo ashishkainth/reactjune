@@ -21,6 +21,7 @@
 
 .restaurnat-card {
   border: 1px solid black;
+  border-radius: 10px;
   cursor: pointer;
   width: 200px;
   padding: 8px;
@@ -35,6 +36,7 @@
 
 .shimmer-card {
   border: 1px solid black;
+  border-radius: 10px;
   cursor: pointer;
   width: 200px;
   padding: 8px;

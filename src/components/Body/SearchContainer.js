@@ -9,17 +9,36 @@ export default SearchContainer = ({
 
   return (
     <div>
-      <div style={{ margin: "10px" }}>
+      <div
+        style={{
+          margin: "10px",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
         <input
           type="text"
           placeholder="Enter Search text"
           value={searchText}
+          style={{
+            height: "40px",
+            width: "50%",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            fontSize: 24,
+          }}
           onChange={(e) => {
             setSearchText(e.target.value);
           }}
         />
         <button
-          style={{ margin: "10px" }}
+          style={{
+            marginLeft: "10px",
+            height: "50px",
+            width: "100px",
+            border: "1px solid black",
+            borderRadius: 20,
+          }}
           onClick={() => {
             handleSearchFilterAction(searchText);
           }}
@@ -30,6 +49,12 @@ export default SearchContainer = ({
 
       <button
         className="filter-btn"
+        style={{
+          height: "50px",
+          width: "200px",
+          border: "1px solid black",
+          borderRadius: 20,
+        }}
         onClick={() => {
           handleFilterAction();
         }}
@@ -38,6 +63,12 @@ export default SearchContainer = ({
       </button>
       <button
         className="filter-btn"
+        style={{
+          height: "50px",
+          width: "100px",
+          border: "1px solid black",
+          borderRadius: 20,
+        }}
         onClick={() => {
           handleResetFilterAction();
         }}
